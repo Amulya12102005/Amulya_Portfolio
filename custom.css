@@ -1,0 +1,80 @@
+/* ================= CONTACT SECTION ================= */
+
+.contact-section {
+  position: relative;
+  background: #000;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.contact-section .big-title {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 140px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.05);
+  letter-spacing: 12px;
+  z-index: 0;
+  user-select: none;
+}
+
+.contact-section h2 {
+  font-size: 42px;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-section .subtitle {
+  color: #aaa;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Contact Cards */
+.contact-card {
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.contact-icon {
+  width: 90px;
+  height: 90px;
+  background: #111;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-icon span {
+  font-size: 32px;
+  color: #ffbd39;
+}
+
+.contact-card:hover .contact-icon {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(255, 189, 57, 0.3);
+}
+
+.contact-card h4 {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.contact-card p,
+.contact-card a {
+  color: #bbb;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  color: #ffbd39;
+}
